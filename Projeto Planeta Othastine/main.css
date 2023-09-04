@@ -1,0 +1,137 @@
+.menu {
+    font-size: 25px;
+    position: relative;
+    top: -14px;
+    float: left;
+    left: 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+.image {
+    margin-left: 40px;
+    float: left;
+    margin-top: 5px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    right: -20px;
+}
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 650px;
+}
+.criar-conta {
+    padding-right: 10px;
+}
+criar-conta, .login {
+    color: blue;
+    text-decoration: underline;
+
+}
+.nome-planeta {
+    padding-left: 200px;
+}
+.linha {
+  width: 71%; /* Defina a largura desejada aqui, por exemplo, 50% */
+  margin: 0 auto; /* Centraliza horizontalmente a linha dentro do elemento pai */
+  border: none; /* Remove a borda padrão da linha */
+  border-top: 1px solid gray; /* Adiciona uma borda superior para criar a linha */
+}
+.art-disc {
+  width: 100%;
+}
+.art-disc p {
+  float: left; /* Define que os parágrafos flutuem à esquerda */
+  width: 4%; /* Define a largura de cada parágrafo (50% para cada para dividir a largura igualmente) */
+  box-sizing: border-box;
+  
+}
+.article {
+    padding-left: 200px;
+}
+.discuss {
+    padding-left: 60px;
+}
+#linhazinha {
+    width: 100%; /* Defina a largura desejada aqui, por exemplo, 50% */
+  margin: 5; /* Centraliza horizontalmente a linha dentro do elemento pai */
+}
+.breve-desc {
+    width: 870px;
+    margin-left: 200px;
+}
+#foto-planeta {
+    width: 225px;
+    height: 202px;
+    margin-left: 950px;
+}
+.titulo-h3 {
+    clear: both; /* Clear the float */
+    margin-left: 200px; /* Add margin to create space between the elements */
+}
+.text-mane {
+    clear: both;
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.para-dox {
+    width: 960px;
+    margin-left: 200px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+table {
+    width: 950px;
+    
+}
+.tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+}
